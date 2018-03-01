@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { GLOBAL } from './services/global';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  header_color= '#E03137';
+  title = 'Gestión de Tickets';
 }
