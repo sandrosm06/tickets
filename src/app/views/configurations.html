@@ -1,0 +1,24 @@
+<div class="col-lg-10 col-lg-offset-1">
+	<div class="jumbotron">
+	<h2>{{title}}</h2>
+
+	<form #formConfigurations="ngForm" (ngSubmit)="onSubmit()" id="form-configurations">
+		<div class="form-group">
+			<label for="localidad">Localidad</label>
+			<input class="form-control" type="text" id="localidad" name="localidad" placeholder="nombre de la localidad, ej. tribuna">
+		</div>
+
+		<div class="form-group">
+			<label for="seatsNumber">Número de Asientos/Asistentes</label>
+			<input class="form-control" type="text" id="seatsNumber" name="seatsNumber" placeholder="Asistentes">
+		</div>
+
+		<button type="submit" class="btn btn-default">Siguiente</button>
+
+	</form>
+
+
+
+
+	</div>
+</div>
