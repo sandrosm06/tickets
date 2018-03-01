@@ -26,6 +26,11 @@ import { ValidatorComponent } from './components/validator.component';
 
 //Routes
 import { routing, appRoutingProviders } from './app.routing';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { RegisterPageComponent } from './components/register-page/register-page.component';
+import { LoginPageComponent } from './components/login-page/login-page.component';
+import { PrivatePageComponent } from './components/private-page/private-page.component';
+import { NotFoundPageComponent } from './components/not-found-page/not-found-page.component';
 
 
 @NgModule({
@@ -42,7 +47,12 @@ import { routing, appRoutingProviders } from './app.routing';
     AddConfigurationsComponent,
     GenerateTicketsComponent,
     ValidatorComponent,
-    VenuesComponent
+    VenuesComponent,
+    NavbarComponent,
+    RegisterPageComponent,
+    LoginPageComponent,
+    PrivatePageComponent,
+    NotFoundPageComponent
 
   ],
   imports: [
